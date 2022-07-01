@@ -1,0 +1,9 @@
+<h2>dòng 1</h2>
+<h1 *ngFor="let str of arr">
+  {{str}}
+</h1>
+
+<h5 *ngFor="let str of arrNumber" [style.background]="arr[0]" >
+  <div *ngIf="str < 3">
+    {{str}}</div>
+</h5>
